@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "chat-asdf"
+  },
+  "targets": {
+    "chat-asdf": {
+      "hosting": {
+        "search-computer": [
+          "search-computer"
+        ]
+      }
+    }
+  }
+}

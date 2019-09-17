@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "target": "search-computer",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {
+        "source": "/",
+        "dynamicLinks": true
+      },
+      {
+        "source": "**",
+        "destination": "index.html"
+      }
+    ]
+  }
+}
